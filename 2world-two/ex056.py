@@ -1,5 +1,5 @@
-from enum import Enum
 from dataclasses import dataclass
+from enum import Enum
 
 
 class Gender(Enum):
@@ -21,18 +21,18 @@ class Report:
 
     def calculate_age_mean(self) -> float:
         return float(sum(self.ages) / len(self.ages))
-    
+
     def get_older_man_name(self) -> str:
         men = [p for p in self.list_of_people if p.gender == Gender.male]
         if not men:
             return "Nenhum homem no grupo"
-        
+
         oldest = max(men, key=lambda p: p.age)
         return oldest.name
-    
+
     def count_women_under_20(self) -> int:
         return sum(
-            1 for p in self.list_of_people 
+            1 for p in self.list_of_people
             if p.gender == Gender.female and p.age < 20
         )
 

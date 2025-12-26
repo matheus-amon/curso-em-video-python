@@ -7,4 +7,3 @@ print(f'{phrase} ao contrario é {inverse}')
 
 if inverse == phrase:
     print('é palindromo')
-  

@@ -5,7 +5,7 @@ print(f"""
     Só tem espaços? {variavel.isspace()}
     É um número? {variavel.isnumeric()}
     É alfabético? {variavel.isalpha()}
-    É alfanumérico? {variavel.isalnum()} 
+    É alfanumérico? {variavel.isalnum()}
     Está em maiúscula? {variavel.isupper()}
     Está em minúscula? {variavel.islower()}
     Está capitalizada? {variavel.istitle()}

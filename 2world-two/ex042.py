@@ -12,5 +12,5 @@ else:
         type = 'ISÓSCELES!'
     else:
         type = 'ESCALENO!'
-    
+
     print(f'UAU! Essas retas formam um triângulo {type}')

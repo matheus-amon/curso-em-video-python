@@ -11,10 +11,10 @@ for y in years:
     current_year = date.today().year
     current_year = int(current_year)
     age = current_year - y
-    
+
     if age < 18:
         m += 1
-        
+
 print(f'''
 {m} menores
 {len(years) - m} maiores

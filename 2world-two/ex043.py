@@ -14,4 +14,4 @@ elif imc >= 18.5:
 else:
     status = 'ABAIXO DO PESO!'
 
-print(f'Você está {status}!')    
+print(f'Você está {status}!')

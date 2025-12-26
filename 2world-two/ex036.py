@@ -10,4 +10,3 @@ if parcela > salario * 0.3:
     print('Empréstimo NEGADO!')
 else:
     print('Empréstimo pode ser CONCEDIDO!')
-    

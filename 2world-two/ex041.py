@@ -19,5 +19,5 @@ elif age > 25 and age <= 50:
 else:
     info = 'Infelizmente você não se enquadra em nenhuma categoria'
     category = '!'
-    
+
 print(info + category)

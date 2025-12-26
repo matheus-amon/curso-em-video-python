@@ -9,7 +9,7 @@ while True:
     first_result = input('Primeira nota: ')
     second_result = input('Segunda nota: ')
     thirdy_result = input('Terceira nota: ')
-    
+
     if isfloat(first_result) and isfloat(second_result) and isfloat(thirdy_result):
         first_result = float(first_result)
         second_result = float(second_result)
@@ -17,7 +17,7 @@ while True:
         break
     else:
         print('ERROR: "Insira notas válidas"')
-    
+
 mean = (first_result + second_result + thirdy_result) / 3
 
 if mean < 5:
@@ -26,4 +26,3 @@ elif mean >= 5 and mean <= 6.9:
     print(f'Sua média foi {mean:.2f}. RECUPERAÇÃO!')
 else:
     print(f'Sua média foi {mean:.2f}. APROVADO!')
-    

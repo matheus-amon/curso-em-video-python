@@ -3,6 +3,7 @@ print(' ')
 
 from math import hypot
 
+
 def calcular_hipotenusa(cateto_oposto, cateto_adjacente):
     hipotenusa = hypot(cateto_oposto, cateto_adjacente)
     print('A hipotenusa vai medir {:.2f}'.format(hipotenusa))

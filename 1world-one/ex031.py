@@ -6,5 +6,5 @@ if distancia >= 200:
 
 print(f'''
 Você está prestes a começar uma viagem de {distancia:.1f}Km.
-E o preço da sua passagem será de R${valor:.2f}    
+E o preço da sua passagem será de R${valor:.2f}
 ''')
